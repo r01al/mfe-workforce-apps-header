@@ -9,3 +9,6 @@ npm run typecheck
 npm run build
 npm start
 ```
+
+`npm run dev` renders the Header independently at `http://localhost:3002/`.
+The shell and other remotes are not required.

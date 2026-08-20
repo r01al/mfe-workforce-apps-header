@@ -6,4 +6,8 @@ export default (environment: Record<string, unknown>, argv: BuildArguments) => c
 	appDirectory,
 	port: 3002,
 	exposes: { './Header': './src/Header' },
+	standalone: {
+		entry: './src/dev.ts',
+		title: 'Workforce Header',
+	},
 }, environment, argv);
